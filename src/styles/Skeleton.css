@@ -1,0 +1,125 @@
+
+.skeleton-section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: nowrap;
+    
+}
+
+.skeleton-image-container{
+    position: relative;
+    flex-shrink: 0;
+}
+.skeleton-image{
+    width: 250px;
+    height: auto;
+    transition: transform 0.2s ease-out;
+}
+
+.zoom-icon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;}
+
+
+
+.skeleton-image:hover{
+    animation: tiltLR 0.6s ease-in-out;
+}
+
+@keyframes tiltLR{
+    0%{transform:  rotateY(0deg);}
+    25%{transform:  rotateY(-10deg);}
+    50%{transform:  rotateY(10deg);}
+    75%{transform:  rotateY(-10deg);}
+    100%{transform: rotateY(0deg);}
+}
+
+
+
+
+.health-tag{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+.heart-tag{
+    top: 80px;
+    right: -60px;
+    background-color: #4f46e5;
+
+}
+.leg-tag{
+    bottom: 40px;
+    left: -60px;
+    background-color:#06b6d4;
+}
+
+.card-list{
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+
+.card-new{
+    background-color: #f9f9ff;
+    border-radius: 1rem;
+    padding: 1.2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+   width: 300px;
+  
+   
+}
+
+.card-content{
+
+    display: flex;
+    align-items: center;
+    gap:1rem;
+}
+.card-icon-img{
+    width: 40px;
+    height: 40px;
+   
+}
+.card-text h4{
+    margin: 0;
+    font-weight: 600;}
+
+.card-date{
+    font-size: 0.85rem;
+    color:#6b7280;
+    margin:0.3rem 0;
+}
+.progress-bar{
+    height:6px;
+    background-color: #e5e7eb;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 5px;
+
+
+}
+.progress-fill{
+    height:100%;
+    border-radius: 5px;
+}
