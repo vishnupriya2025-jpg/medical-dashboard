@@ -17,7 +17,7 @@ const Header = () => {
                   </label>
                 </div>
                 <div className="right-icons">
-                    {*<img src={UserIcon} alt="User Avatar"  className="User-avatar"/>*}
+                    
                  
                  <button className="add-item-button">
                    <img src={addItemIcon} alt="Add Item"  className="add-icon"/> 
