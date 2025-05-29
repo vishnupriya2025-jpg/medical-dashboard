@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Header.css"
 import SearchIcon from "../assets/Icons/Search.svg";
-import UserIcon from "../assets/Icons/User.svg";
+//import UserIcon from "../assets/Icons/User.svg";
 import addItemIcon from "../assets/Icons/Add.svg"
 import BellIcon from "../assets/Icons/Bell.svg"
 
@@ -17,7 +17,7 @@ const Header = () => {
                   </label>
                 </div>
                 <div className="right-icons">
-                    <img src={UserIcon} alt="User Avatar"  className="User-avatar"/>
+                    {*<img src={UserIcon} alt="User Avatar"  className="User-avatar"/>*}
                  
                  <button className="add-item-button">
                    <img src={addItemIcon} alt="Add Item"  className="add-icon"/> 
