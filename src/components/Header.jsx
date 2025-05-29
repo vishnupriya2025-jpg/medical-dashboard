@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Header.css"
 import SearchIcon from "../assets/Icons/Search.svg";
-import UserIcon from "../assets/Icons/user.svg";
+import UserIcon from "../assets/Icons/User.svg";
 import addItemIcon from "../assets/Icons/Add.svg"
 import BellIcon from "../assets/Icons/Bell.svg"
 
